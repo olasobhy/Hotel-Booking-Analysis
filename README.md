@@ -18,6 +18,9 @@ The main goal is to consolidate the data, clean it, and prepare it for further a
    - Added new calculated columns:
      - `Total_nights` → total number of nights per booking.  
      - `Total_revenue` → total revenue generated per booking.
+     - `Total_guests` → total guests per booking (adults + children + babies).  
+     - `Quarter` → extracted from `arrival_date_month` to analyze seasonal trends.
+
 
 4. **Data Cleaning**  
    - Removed **Null / missing values** to ensure data quality.
